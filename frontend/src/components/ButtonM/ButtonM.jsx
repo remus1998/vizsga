@@ -17,7 +17,7 @@ const MyButton = styled(Button)({
   borderBottomRightRadius: 25,
   borderBottomLeftRadius: 25,
   '@media (min-width: 260px) and (max-width: 900px)': {
-    width: '87vw'
+    width: '84vw'
   },
   '@media (min-width: 900px) and (max-width: 1280px)':{
     width: '90vw'
