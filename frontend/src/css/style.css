@@ -23,9 +23,7 @@ body .container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 60px;
-  margin-left: 90px;
-  margin-right: 60px;
+  margin: 80px 70px 50px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 90vw;
@@ -36,12 +34,17 @@ body .container {
 
 body .container .left-side {
   position: absolute;
-  left: 0;
+  left: 50px;
+  top: 50px;
 }
 
 body .container .right-side {
   position: absolute;
-  right: 0;
+  bottom: 80px;
+  right: 50px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 body p {

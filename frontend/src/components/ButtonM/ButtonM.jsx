@@ -14,6 +14,8 @@ const MyButton = styled(Button)({
   fontSize: '16px',
   letterSpacing: 4,
   position: 'absolute',
+  borderBottomRightRadius: 25,
+  borderBottomLeftRadius: 25,
 });
 
 function ButtonM() {

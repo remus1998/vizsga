@@ -11,9 +11,7 @@ body {
     display: flex;
     justify-content: center;
     //align-items: center;
-    margin-top: 60px;
-    margin-left: 90px;
-    margin-right: 60px;
+    margin: 80px 70px 50px;
     flex-wrap: wrap;
     width: 90vw;
     height: 90vh;
@@ -22,13 +20,15 @@ body {
 
     .left-side {
       position: absolute;
-      left: 0;
+      left: 50px;
+      top: 50px;
     }
     .right-side {
       position: absolute;
-      right: 0;
+      bottom: 80px;
+      right: 50px;
+      align-items: flex-end;
     }
-
   }
   p {
     color: white;

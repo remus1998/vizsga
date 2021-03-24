@@ -10,7 +10,7 @@ const useStyles = makeStyles({
   menuH: {
     position: 'absolute',
     top: '25px',
-    right: '25px',
+    right: '50px',
     '@media (max-width: 360px)': {
       right: '10px'
     },
