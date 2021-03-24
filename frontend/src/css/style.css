@@ -12,6 +12,13 @@ body {
   background-color: #bc865c;
   width: 100%;
   height: 100vh;
+  padding: 85px 3% 50px;
+}
+
+@media (min-width: 200px) and (max-width: 900px) {
+  body {
+    padding: 85px 30px 50px;
+  }
 }
 
 body .container {
@@ -23,28 +30,59 @@ body .container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 80px 70px 50px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 90vw;
-  height: 90vh;
+  width: 100%;
+  height: 80vh;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
+}
+
+@media (min-width: 200px) and (max-width: 900px) {
+  body .container {
+    width: 100%;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px;
+  }
 }
 
 body .container .left-side {
   position: absolute;
   left: 50px;
   top: 50px;
+  text-align: left;
+}
+
+@media (min-width: 200px) and (max-width: 900px) {
+  body .container .left-side {
+    text-align: center;
+    height: 45%;
+    right: 20px;
+    margin: 3px;
+    font-size: 20px;
+  }
 }
 
 body .container .right-side {
   position: absolute;
   bottom: 80px;
   right: 50px;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  text-align: right;
+}
+
+@media (min-width: 200px) and (max-width: 900px) {
+  body .container .right-side {
+    text-align: center;
+    height: 50%;
+    right: 20px;
+    left: 20px;
+    margin: 5px;
+    padding-top: 50px;
+    font-size: 20px;
+  }
 }
 
 body p {

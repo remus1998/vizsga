@@ -11,8 +11,11 @@ const useStyles = makeStyles({
     position: 'absolute',
     top: '25px',
     right: '50px',
-    '@media (max-width: 360px)': {
-      right: '10px'
+    '@media (min-width: 360px) and (max-width: 700px)': {
+      right: '0px'
+    },
+   '@media (max-width: 700px)': {
+      right: '0px'
     },
   },
   iconB: {
@@ -36,8 +39,8 @@ const useStyles = makeStyles({
       height: '80px',
     },
     '@media (max-width: 520px)': {
-      width: '55px',
-      height: '55px',
+      width: '80px',
+      height: '80px',
     }
   },
   icon: {
@@ -46,10 +49,10 @@ const useStyles = makeStyles({
       fontSize: 55,
     },
     '@media (max-width: 1000px)': {
-      fontSize: 45,
+      fontSize: 55,
     },
     '@media (max-width: 520px)': {
-      fontSize: 25,
+      fontSize: 55,
     }
   }
 });

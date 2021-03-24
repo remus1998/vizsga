@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 
 const MyButton = styled(Button)({
   height: 48,
-  width: '90vw',
+  width: '94vw',
   color: '#bc865c',
   bottom: 0,
   paddingRight: 20,
@@ -16,6 +16,13 @@ const MyButton = styled(Button)({
   position: 'absolute',
   borderBottomRightRadius: 25,
   borderBottomLeftRadius: 25,
+  '@media (min-width: 260px) and (max-width: 900px)': {
+    width: '87vw'
+  },
+  '@media (min-width: 900px) and (max-width: 1280px)':{
+    width: '90vw'
+  }
+
 });
 
 function ButtonM() {
